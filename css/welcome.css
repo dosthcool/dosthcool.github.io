@@ -231,8 +231,9 @@ big{
 .footer{
 	margin-top: 40px;
 	padding: 80px 0px;
-	font-size: 16px;
-	background-color: #F8F9FB;
+	font-size: 20px;
+	color: #FF95AC;
+	/*background-color: #F8F9FB;*/
 
 }
 .footer li{
@@ -243,7 +244,7 @@ big{
 
 .footer li a{
 	text-decoration: none;
-	color: #FF95AC;
+	color: #aaa;
 
 }
 
