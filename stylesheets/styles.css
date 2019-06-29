@@ -194,6 +194,10 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+time {
+  color: #bbbbbb;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
