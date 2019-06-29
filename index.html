@@ -1,210 +1,220 @@
-<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ChoMoon</title>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="css/welcome.css"> 
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <title>ChoMoon</title>
+</head>
+<body>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>ChoMoon</h1>
-        <p>原先网站没付钱所以断了更新，以后在这里重新崛起！</p>
-        <p class="view"><a href="https://dosthcool.github.io/welcome">我的作品集
-        	<!-- <small>orderedlist/minimal</small> -->
-        </a>
-        </p>
-        <ul>
-          <li><a href="https://dosthcool.github.io/welcome">个人作品集 <strong>Online</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>GitHub Flavored Markdown</h1>
 
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+<div class="top animated fadeInDown">
+	<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid"> 
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#example-navbar-collapse">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="logo-sloga">
+						<a class="navbar-brand" href="#">
+			<!-- <a href="index.html"><img src="img/logo.png"></a> -->
+			<!-- CHO MOON -->
+						</a>
+					</div>
 
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+				</div>
+				<div class="collapse navbar-collapse pull-right" id="example-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#" style="color: #979797">Work</a></li>
+						<li><a href="/blog" style="color: #979797">Blog</a></li>
+						<li><a href="http://greenpark.lofter.com" style="color: #979797" target="blank">Photo</a></li>
+						<!-- <li><a href="https://dosthcool.cn/profile/UIUX_chomoon.pdf" target="blank">Resume</a></li> -->
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
 
-        <p>Roses are red<br>
-        Violets are blue</p>
+<!-- intro -->
+<div class="intro animated slideInUp">
+	<div class="container">
+		<div class="rows col-md-7 col-xs-12">
+		<!-- <h6>Hello</h6> -->
+			<h1>Cho Moon</h1>
+			<p>我是一名交互设计师。业余喜欢看书写作，做插画和表情包，外出拍摄短片和照片，剪vlog。
+			</p>
+		<!-- intro? -->
+			<div id="collapseOne" class="collapse in">
+				<p>从2015年开始接触UIUX设计，至今已有4个年头。</p>
 
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
+				<p>热衷于扩展自己的技能树，游戏化安排自己的生活，不断研究新课题，生活中我关注一些有趣的未知领域，比如社交、理财、心理学，喜欢没事找小伙伴一起学习研究。
+				</p>
+				
+	      		<p>业余时间里，我喜欢看书写作，做点插画和表情包，也喜欢外出拍摄短片和照片，剪一些vlog。</p>
 
-        <p>Roses are red<br><br>
-        Violets are blue</p>
+			</div>
+			<div class="gotolink">
+				<a data-toggle="collapse" data-parent="#accordion" 
+				   href="#collapseOne">
+					了解更多 →
+				</a>
+			</div>
+			<script type="text/javascript">
+				$(function () { $('#collapseOne').collapse('hide')});
+			</script> 
+		</div>
+	</div>
+</div>
 
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
 
-        <h2>A bit of the GitHub spice</h2>
 
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
 
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
 
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
 
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
+<!-- 项目经验 -->
+<div class="project">
+	<div class="container">
+<!-- 1 -->
+		<a href="enjoyfix.html">
+			<div class="rows col-md-6 col-sm-6 col-xs-12 text-center card">
+			
+				<div class="card-inside">
+					<div class="hover-content" style="background-color: #F8F9FB;">
+					<div class="card-name text-center animated pulse" style="margin-top: 25%;color: #565656">
+						<h3>优化使用效率的交互设计</h3>
+						工程师维修助手
+					</div>
+					</div>
+					<img src="img/fixer.jpg" class="img-responsive img-rounded">
+				</div>
+			</div>
+		</a>
 
-        <h2>Math is hard, let's go shopping</h2>
+		
+<!-- 3 -->
+		<a href="sader.html">
+			<div class="rows col-md-6 col-sm-6 col-xs-12 text-center card">
+				<div class="card-inside">
+					<div class="hover-content" style="background-color: #17164D"></div>
+					<div class="card-name text-center animated pulse" style="margin-top: 25%;color: #fff">
+						<h3>趣味化创新的交互设计</h3>
+						SADER：治愈社交恐惧
+					</div>
+			
+					<img src="img/sader.jpg" class="img-responsive img-rounded">
+				</div>
+			</div>
+		</a>
+<!-- 3 -->
+		<a href="ghostface.html">
+			<div class="rows col-md-6 col-sm-6 col-xs-12 text-center card">
+			
+				<div class="card-inside">
+					<div class="hover-content" style="background-color: #7B6FFF;color: #565656"></div>
+					<div class="card-name text-center animated pulse" style="margin-top: 25%;color: #fff">
+						<h3>提高用户增长的交互设计</h3>
+						鬼脸对讲机：视频社交
+					</div>
+			
+					<img src="img/ghost.jpg" class="img-responsive img-rounded">
+				</div>
+			</div>
+		</a>
+	<!-- 4 -->
+		<a href="fixx.html">
+			<div class="rows col-md-6 col-sm-6 col-xs-12 text-center card">
+			
+				<div class="card-inside" style="background-color: #E8F3FC">
+					<div class="hover-content" style="background-color: #FFBB63"></div>
+					<div class="card-name text-center animated pulse" style="margin-top: 25%;color: #fff">
+						<h3>从0到1产品的交互设计</h3>
+						电子产品售后管家
+					</div>
+			
+					<img src="img/fix.jpg" class="img-responsive img-rounded">
+				</div>
+			</div>
+		</a>
+		<!-- 5 -->
+		<a href="#">
+			<div class="rows col-md-6 col-sm-6 col-xs-12 text-center card">
+			
+				<div class="card-inside">
+					<div class="hover-content" style="background-color: #FF5A52;"></div>
+					<div class="card-name text-center animated pulse" style="margin-top: 25%;color: #fff">
+						<h3>全链路的交互设计</h3>
+						Coming soon...
+					</div>
+			
+					<img src="img/road.jpg" class="img-responsive img-rounded">
+				</div>
+			</div>
+		</a>
 
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
+		<!--6 -->
+		<a href="illustration.html">
+			<div class="rows col-md-6 col-sm-6 col-xs-12 text-center card">
+				<div class="card-inside">
+					<div class="hover-content" style="background-color: #C9C5C1;"></div>
+					<div class="card-name text-center animated pulse" style="margin-top: 25%;color: #565656">
+						<h3>插画 & 动画</h3>
+						2018-Now
+					</div>
+				
+					<img src="img/paint.jpg" class="img-responsive img-rounded">
+				</div>
+			</div>
+		</a>
 
-        <p>Triangles man! a^2 + b^2 = c^2</p>
 
-        <h2>We all like making lists</h2>
+		<!-- <div class="rows col-md-12 col-sm-12 col-xs-12 morework"> 
+			<div class="gotolink">
+				<a href="http://chomoon.lofter.com" target="blank">More →</a>
+			</div>
+		</div> -->
+<!-- <div class="clearfix visible-xs"></div> -->
+	</div>
+</div>
 
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
 
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
+<!-- footer -->
 
-        <p>Let's get crazy:</p>
 
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
+<div class="footer">
+	<div class="container">
+		<div class="rows col-md-8 col-sm-6 col-xs-12">Cho Moon</div>
+		<div class="rows col-md-4 col-sm-6 col-xs-12 text-right">
+			<ul class="list-inline">
+				
+				<li>
+					<a style="color: #979797" href="https://dribbble.com/chomoon" target="blank">Dribbble</a>
+				</li>
+				<li>
+					<a style="color: #979797" href="https://www.instagram.com/chomoon_93" target="blank">Instagram</a>
+				</li>
+				
+				<li>
+					<a style="color: #979797" href="https://www.behance.net/cherrycaow6e69" target="blank">Behance</a>
+				</li>
 
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
+			</ul></div>
+	</div>
+</div>
 
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
 
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
-
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
-
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
-
-        <p>Some people seem to like definition lists</p>
-
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-
-        <h2>I am a robot</h2>
-
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
-
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
-
-        <p>How about we throw some angle braces and ampersands in there?</p>
-
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
-
-        <h2>Set in stone</h2>
-
-        <p>Preformatted blocks are useful for ASCII art:</p>
-
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-        <h2>Playing the blame game</h2>
-
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
-
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
-
-        <p>Or perhaps someone a little less eloquent:</p>
-
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
-
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
-
-        <h2>Table for two</h2>
-
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
-
-        <h2>Crazy linking action</h2>
-
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+</body>
 </html>
