@@ -41,6 +41,14 @@ h3, h4, h5, h6 {
 h3{
   font-size: 20px;
 }
+
+footer a:hover {
+  opacity: 0.3;
+  text-decoration:none;
+  color:#565656;
+  border: none;
+}
+
 a {
   color:#F7C6D1;
   text-decoration:none;
