@@ -101,7 +101,7 @@ code{
 }
 
 .navbar .active{
-	color: pink;
+	opacity: 0.4;
 	background-color: #fff;
 }
 
@@ -354,3 +354,6 @@ big{
 	bottom: 0;*/
 }
 
+.photo img{
+	padding-top: 20px;
+}
