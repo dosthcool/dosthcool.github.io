@@ -22,11 +22,12 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  color:#565656;
   font-weight: 500;
 }
 
 h2 {
-  color:#FF9696;
+  color:#523B40;
   font-weight: 400;
   font-size: 24px;
 }
@@ -41,12 +42,15 @@ h3{
   font-size: 20px;
 }
 a {
-  color:#FFBABA;
+  color:#F7C6D1;
   text-decoration:none;
 }
 
 a:hover {
-  color:#FF9696;
+  opacity: 1;
+  text-decoration:none;
+  color:#565656;
+  border-bottom: 5px solid #F7C6D1;
 }
 
 a small {
@@ -78,6 +82,10 @@ code, pre {
   color:#333;
 }
 
+code{
+  background-color: #F7E8EC;
+  color:#B38F97;
+}
 pre {
   padding:8px 15px;
   background: #f8f8f8;

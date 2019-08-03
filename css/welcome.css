@@ -3,15 +3,30 @@
 	color: #565656;
 }
 
+code{
+	background-color: #F7E8EC;
+	color:#B38F97;
+}
 .top a:hover{
 	opacity: 0.4;
-
 }
+
+.project a{
+	text-decoration: none;
+}
+
+.project .namelink a:hover{
+	opacity: 0.4;
+	text-decoration:none;
+}
+
+
 .footer a{
-	opacity: 0.4
+	opacity: 0.4;
 }
 .footer a:hover{
 	opacity: 1;
+	border-bottom: 5px solid #F7C6D1;
 }
 .Say a:hover{
 	color: #F2709C;
@@ -52,13 +67,14 @@
 .intro a{
 	text-decoration: none;
 	color: #565656;
+	opacity: 0.5;
 	font-weight: 500;
 
 }
 
 .intro a:hover{
-	opacity: 0.5;
-	color: #FF95AC;
+	opacity: 1;
+	border-bottom: 5px solid #F7C6D1;
 }
 
 
@@ -104,6 +120,7 @@
 
 h1{
 	font-size: 36px;
+	color: #565656;
 	
 }
 h2{
