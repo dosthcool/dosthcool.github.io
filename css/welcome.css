@@ -12,9 +12,21 @@ code{
 	opacity: 0.4;
 }
 
-.project a{
+
+.project .piece{
 	text-decoration: none;
 	/*opacity: 0.4;*/
+	border-left:0px solid #F7C6D1;
+	transition:border-left 0.5s;
+	-webkit-transition:border-left 0.5s; /* Safari */
+}
+
+.project .piece:hover{
+	text-decoration:none;
+  	color:#565656;
+  	border-left: 12px solid #F7C6D1;
+  	padding-left: 12px;
+  	opacity: 1;
 }
 .project a > p{
 	text-decoration: none;
@@ -22,22 +34,24 @@ code{
 	color:#565656;
 	font-weight: 500;
 	font-size: 24px;
+	
 }
 
+.project a{
+	text-decoration: none;
+}
 .project span > small{
 	margin-right:12px;
 	font-size: 14px;
 }
 
-.project p:hover{
-	opacity: 1;
-	text-decoration:none;
+/*.project p:hover{
 	opacity: 1;
   	text-decoration:none;
   	color:#565656;
   	border-left: 8px solid #F7C6D1;
   	padding-left: 12px;
-}
+}*/
 
 
 .footer a{
