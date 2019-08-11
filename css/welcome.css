@@ -8,6 +8,11 @@ code{
 	background-color: #F7E8EC;
 	color:#B38F97;
 }
+
+.intro code:hover{
+	background-color: #fff;
+}
+
 .top a:hover{
 	opacity: 0.4;
 }
@@ -40,6 +45,21 @@ code{
 .project a{
 	text-decoration: none;
 }
+
+section a{
+	text-decoration: none;
+	color:#565656;
+	border-bottom: 5px solid #F7C6D1;
+}
+
+section a:hover{
+	opacity: 0.8;
+}
+
+section p{
+	line-height: 20px;
+}
+
 .project span > small{
 	margin-right:12px;
 	font-size: 14px;
@@ -58,7 +78,7 @@ code{
 	opacity: 0.4;
 }
 .footer a:hover{
-	opacity: 1;
+	opacity: 0.8;
 	border-bottom: 5px solid #F7C6D1;
 }
 .Say a:hover{
