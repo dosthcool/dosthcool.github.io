@@ -1,3 +1,22 @@
+.illustration p{
+	font-size: 14px;
+	color:#bbb;
+}
+
+.illustration .ill{
+	margin-top: 20px; 
+}
+.illcard{
+	border-radius: 4px;
+	border: 0px solid #F7E8EC;
+	padding: 4px;
+}
+
+.illcard:hover{
+	border-radius: 4px;
+	border: 2px solid #F7E8EC;
+	padding: 4px;
+}
 
 .illustration .iconfont {
   font-family: "iconfont" !important;
