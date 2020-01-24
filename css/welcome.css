@@ -134,10 +134,16 @@ section p{
 	background-color: #fff;
 }
 
-.navbar .active{
-	opacity: 0.4;
+.navbar{
 	background-color: #fff;
+	color:#BBB;
+	opacity: 0.8;
 }
+
+.navbar > .active{
+	opacity: 1;
+}
+
 
 
 .top{
