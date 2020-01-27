@@ -17,6 +17,10 @@ code{
 	opacity: 0.4;
 }
 
+.top .active{
+	color:#565656;
+}
+
 
 .project .piece{
 	text-decoration: none;
