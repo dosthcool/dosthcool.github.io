@@ -19,8 +19,16 @@ code{
 
 .top .active{
 	color:#565656;
+	/*border-bottom: 4px solid #F7C6D1;*/
 }
 
+.top .active a{
+	/*border-bottom: 2px solid #F7C6D1;*/
+}
+
+.pageheader p{
+	margin-top: 0px;
+}
 
 .project .piece{
 	text-decoration: none;
@@ -50,6 +58,14 @@ code{
 	text-decoration: none;
 }
 
+
+
+.WorkInfo li{
+	font-size: 11px;
+	color:#959695;
+	line-height: 16px;
+}
+
 section a{
 	text-decoration: none;
 	color:#565656;
@@ -63,6 +79,7 @@ section a:hover{
 section p{
 	line-height: 20px;
 }
+
 
 .project span > small{
 	margin-right:12px;
@@ -151,7 +168,7 @@ section p{
 
 
 .top{
-	margin: 16px 0px 16px 0px;
+	margin: 36px 0px 16px 0px;
 	float: top;
 }
 
@@ -180,14 +197,14 @@ section p{
 
 
 h1{
-	font-size: 24px;
+	font-size: 36px;
 	color: #565656;
 	font-weight: 500;
 	
 }
 h2{
-	font-size: 28px;
-	margin-bottom: 24px;
+	font-size: 32px;
+	/*margin-bottom: 18px;*/
 	margin-top: 80px;
 }
 h3{
@@ -202,21 +219,22 @@ h4{
 h5{
 	font-size: 18px;
 	/*color: #aaa;*/
-	font-weight: 0;
+	font-weight: 200px;
 	
 }
 
 h6{
-	font-size: 16px;
-	color: #bbb;
+	font-size: 14px;
+	/*color: #3C3C3C;*/
 	margin-top: 24px;
-	font-family: sans-serif;
+/*	font-family: sans-serif;*/
+	font-weight: 100px;
 }
 
 p{
 	font-size: 16px;
 	line-height: 32px;
-	color: #565656;
+	/*color: #565656;*/
 	letter-spacing: 0.5px;
 	/*margin: 24px 0px;*/
 }
