@@ -11,9 +11,9 @@
   <script src="js/bootstrap.min.js"></script>
   <title>工程师维修助手 | Christina Cao</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu">
 <!-- top -->
-
+<div id="top"></div>
 <div class="top animated fadeOutUp delay-0.2s">
 	<div class="container">
 		<nav class="navbar navbar-default" role="navigation">
@@ -28,19 +28,9 @@
 					</button>
 					<div class="logo-sloga">
 						<a class="navbar-brand" href="#">
-			
 						</a>
 					</div>
-
 				</div>
-				<!-- <div class="collapse navbar-collapse pull-right" id="example-navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li><a href="index.html">Work</a></li>
-						
-						<li><a href="https://dosthcool.cn/profile/UIUX_chomoon.pdf" target="blank">Resume</a></li>
-						</li>
-					</ul>
-				</div> -->
 			</div>
 		</nav>
 	</div>
@@ -63,7 +53,7 @@
 <!-- 大图 -->
 <div class="headerimg text-center animated fadeInUp delay-0.2s" style="background-color: #F8F9FB;padding: 40px 0px">
 	<div class="container">
-		<img src="img/fix_ui1.jpg" class="img-responsive">
+		<img src="img/enjoyfix/fix_ui1.jpg" class="img-responsive">
 	</div>
 	
 </div>
@@ -106,22 +96,20 @@
 		</div>
 	</div>
 </div>
-<!-- 导航 -->
-<!-- <div class="sticky">
-<div class="saylink animated fadeInUp delay-0.4s">
-	
-	<div class="text-center" style="color: #36475B">
-		<ul class="nav nav-pills">
-			<li><a href="#about">项目介绍</a></li>
-			<li><a href="#user">用户研究</a></li>
-			<li><a href="#idea">设计思路</a></li>
-			<li><a href="#result">成果展示</a></li>
-		</ul>
-	</div>	
-</div>
-</div> -->
+
+<!-- 跳到顶部 -->
+<div class="text-right" id="menu" data-spy="affix">
+<!-- 	<a href="#1" class="active">设计背景</a>
+		<div class="MenuList" onclick="window.open('#1','_self');"><p>设计背景</p></div>
+		<div class="MenuList" onclick="window.open('#2','_self');"><p>用户调研</p></div>
+		<div class="MenuList" onclick="window.open('#3','_self');"><p>挖掘机会点</p></div>
+		<div class="MenuList" onclick="window.open('#4','_self');"><p>设计方案</p></div>
+		<div class="MenuList" onclick="window.open('#5','_self');"><p>最终设计</p></div> -->
+		<div class="totop" onclick="window.open('#top','_self');"><p>Top</p></div>
+	</div>
+
 <!-- 项目背景 -->
-<div class="Say animated fadeInUp delay-0.6s" style="padding: 40px 0px">
+<div class="Say animated fadeInUp delay-0.6s" style="padding: 40px 0px" id="1">
 	<div class="container">
 	
 		<div class="rows col-md-3 col-sm-3 col-xs-12">
@@ -137,11 +125,11 @@
 			<br>
 			
 		</div>
-		<img src="img/design_process.jpg" class="img-responsive">
+		<img src="img/enjoyfix/design_process.jpg" class="img-responsive">
 	</div>
 </div>
 <!-- 产品 -->
-<div class="Say animated fadeInUp delay-0.6s">
+<div class="Say animated fadeInUp delay-0.6s" id="2">
 	<div class="container">
 		<div class="rows col-md-3 col-sm-3 col-xs-12">
 			<h3 class="text-left">问题反馈</h3>
@@ -163,48 +151,14 @@
 		</div>
 		<div class="rows col-md-9 col-sm-9 col-xs-12">
 			<p>于是，我们展开了用户调研工作，对外通过查阅用户后台数据来收集2000名用户的信息数据，再通过面对面访谈以及电话访谈进一步确认用户日常工作流程以及对产品的期望和痛点，对内举办小型头脑风暴收集团队内对新版本的想法。</p>
-			<img src="img/fix_search.jpg" class="img-responsive">
+			<img src="img/enjoyfix/fix_search.jpg" class="img-responsive">
 		</div>
 		<div class="rows col-md-3 col-sm-3 col-xs-12">
 <!-- 必须空着 -->
 		</div>
 		
-		<!-- <div class="rows col-md-3 col-sm-3 col-xs-12">
-			
-			<h6>用户信息</h6>
-				<ul class="list-unstyled">
-					<li>78% 的用户文化水平本科以下</li>
-					<li>80% 的用户年龄段在20~26岁</li>
-					<li>90% 为男性用户</li>
-					<li>80% 的用户组身份是工程师用户</li>
-					<li>……</li>
-				</ul>
-
-		</div>
-		<div class="rows col-md-3 col-sm-3 col-xs-12">
-			
-				<h6>用户痛点</h6>
-				<span style="color: #565656"><ul class="list-unstyled">
-					<li>工作时不能快速使用应用</li>
-					<li>需要工具提醒他哪些订单何时要上门</li>
-					<li>需要查看自己工作汇总的工具</li>
-					<li>……</li>
-				</ul></span>	
-		</div> -->
 	</div>
 </div>
-<!-- pic -->
-<!-- <div style="margin-top: 80px">
-	<div class="container">
-		<div class="rows col-sm-6">
-			<img src="img/fixerwhiteboard.jpg" class="img-responsive">
-		</div>
-		<div class="rows col-sm-6">
-			<img src="img/fixeruser.jpg" class="img-responsive">
-		</div>
-	</div>
-</div>
- -->
 
 <div class="Say">
 	<div class="container">
@@ -217,11 +171,11 @@
 			<p>根据本阶段对用户日常工作的研究，基于使用场景我将用户分为<b>两类persona</b>，关注工作效率和关注工作收益。
 			</p>
 			<div class="rows col-xs-6 col-sm-6">
-				<img src="img/fix_persona.jpg" class="img-responsive">
+				<img src="img/enjoyfix/fix_persona.jpg" class="img-responsive">
 				<small>效率主导</small>
 			</div>
 			<div class="rows col-xs-6 col-sm-6">
-				<img src="img/fix_persona2.jpg" class="img-responsive">
+				<img src="img/enjoyfix/fix_persona2.jpg" class="img-responsive">
 				<small>收益主导</small>
 			</div>
 			<div class="rows col-md-12 col-sm-12 col-xs-12">
@@ -235,50 +189,17 @@
 
 	</div>
 </div>
-
-<!-- 旧故事板 -->
-<!-- <div class="Say">
-	<div class="container">
-		<div class="row col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="text-center">
-			<img src="img/fix/1.jpg" class="img-responsive">
-		</div>
-		</div>
-
-		<div class="row col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="text-center">
-			<img src="img/fix/2.jpg" class="img-responsive">
-		</div>
-		</div>
-
-	</div>
-
-	<div class="container">
-		<div class="row col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="text-center">
-			<img src="img/fix/3.jpg" class="img-responsive">
-		</div>
-		</div>
-
-		<div class="row col-xs-12 col-sm-6 col-md-6 col-lg-6">
-		<div class="text-center">
-			<img src="img/fix/4.jpg" class="img-responsive">
-		</div>
-		</div>
-
-	</div>
-</div> -->
 </div></div>
 
 
 
-<div class="Say2" style="background-color: #F8F9FB;padding: 60px 0;margin-bottom: 80px">
+<div class="Say2" style="background-color: #F8F9FB;padding: 60px 0;margin-bottom: 80px" id="3">
 	
 	<div class="container">
 		<div class="rows col-md-12 col-sm-12 col-xs-12">
 			<h4 class="text-center" style="line-height: 32px;margin-bottom: 24px">上门维修故事</h4>
 			<div class="text-center" style="margin-bottom: 40px">
-					<img src="img/fix_storyboard.jpg" class="img-responsive">
+					<img src="img/enjoyfix/fix_storyboard.jpg" class="img-responsive">
 					
 				</div>
 
@@ -287,7 +208,7 @@
 		
 			<div style="margin-top: 20px">
 				<div class="text-center" style="margin-bottom: 40px">
-					<img src="img/enjoyfix_flow2.jpg" class="img-responsive">
+					<img src="img/enjoyfix/enjoyfix_flow2.jpg" class="img-responsive">
 				</div>
 				<p><b>设计机会点挖掘：</b>80%的用户反馈会被打断当前操作。正在操作服务单的工程师需要专注于当前操作中的服务单，因为对于他来说再次找到这一服务单很困难。</p>
 				<p><b>痛点：</b>搜索服务单的逻辑需要优化；接单逻辑不应该不打扰工程师操作。</p>
@@ -296,8 +217,8 @@
 		</div>
 		<div class="rows col-md-12 col-sm-12 col-xs-12">
 			<div class="text-center">
-					<img src="img/enjoyfix_flow3.jpg" class="img-responsive">
-					<small>绿色部分：工程师线下操作。</small>
+					<img src="img/enjoyfix/enjoyfix_flow3.jpg" class="img-responsive">
+					<!-- <small>绿色部分：工程师线下操作。</small> -->
 			</div>
 
 			<div style="margin-top: 24px">
@@ -322,7 +243,7 @@
 
 			<div style="margin-top: 20px">
 				<div class="text-center" style="margin-bottom: 40px">
-					<img src="img/enjoyfix_flow4.jpg" class="img-responsive">
+					<img src="img/enjoyfix/enjoyfix_flow4.jpg" class="img-responsive">
 					<small>70%的用户反馈账户页面找不到自己想要看的内容。</small>
 				</div>
 				<p><b>设计机会点挖掘：</b>从流程上来看，简化页面流程并整合内容信息就可以解决用户的痛点。</p>
@@ -332,68 +253,21 @@
 
 </div>
 
-<!-- 流程 -->
-<!-- 旧流程 -->
-<!-- <div class="Say">
-	<div class="container">
-		<div class="text-center">
-			<h3 style="margin-bottom: 48px">之前的页面流程</h3>
-			
-			<img src="img/enjoyfix_flow.jpg" class="img-responsive">
-		</div>
-	</div>
-</div> -->
-<!-- <div class="Say" style="background-color: #F8F9FB;padding: 40px 0">
-	<div class="container">
-		
-		<div class="Usercard">
-			<div class="row col-xs-12 col-md-2 col-sm-2" style="background-color: #F8F9FB;border-radius: 16px;padding: 24px;">
-			
-				<div class="text-center"><img src="img/fixuser1.png" class="img-circle" style="background-color: #fff;width: 120px">
-				</div>
-				
-				
-			</div>
-		<div class="Usergoal">
-			<div class="rows col-xs-12 col-md-5 col-sm-5" style="padding-top: 40px">
-				
-				<p style="color: #36475B"><big style="color: #36475B">“</big>服务过程不能太繁琐，操作不方便会影响我们赚钱的，本来时间也不多。<big style="color: #36475B">”</big></p>
-				<b class="pull-right">米宏 25岁 效率第一</b>
-			</div>
-			<div class="rows col-xs-12 col-md-5 col-sm-5" style="padding-top: 40px">
-				
-				<p style="color: #36475B"><big style="color: #36475B">“</big>空闲时间就喜欢看看收益，看看业绩，增加成就感，向朋友炫耀下。<big style="color: #36475B">”</big></p>
-				<b class="pull-right">张文 23岁 专注收益</b>
-			</div>
-			
-		</div>
-		</div>
-		
-	</div>
-</div>
- -->
 
-<!-- 定位 -->
-<!-- <div style="margin-top: 80px">
-<div class="text-center" style="padding: 24px 48px">
-	<h6>设计目标</h6>
-	<h1><big>如何设计能让工程师提高工作效率，更快速找到对自己更为重要的内容？</big></h1>
-</div>
-</div> -->
 
 <!-- 设计草图 -->
-<div class="Say">
+<div class="Say" id="4">
 	<div class="container">
 		<div class="rows col-md-3 col-sm-3 col-xs-12">
 			<h3 class="text-left">草图设计 & 验证</h3>
 		</div>
 		<div class="rows col-md-9 col-sm-9 col-xs-12">
-			<p>我将上一步三个流程得出的分析结果具体到每个页面可以优化的点上，结合现有的一些用户需求。<a href="img/fix_sketch.jpg" target="blank">点击看大图</a></p>
-			<img src="img/fix_sketch.jpg" class="img-responsive">
+			<p>我将上一步三个流程得出的分析结果具体到每个页面可以优化的点上，结合现有的一些用户需求。<a href="img/enjoyfix/fix_sketch.jpg" target="blank">点击看大图</a></p>
+			<img src="img/enjoyfix/fix_sketch.jpg" class="img-responsive">
 			<p>
-				这一步，我已有很多想法，所以在创意草图选用纸笔快速表达我的想法，并给团队内的用户进行测试，获得反馈后继续修改，这是个不断迭代的过程。<a href="img/fix_sketch2.jpg" target="blank">点击看大图</a>
+				这一步，我已有很多想法，所以在创意草图选用纸笔快速表达我的想法，并给团队内的用户进行测试，获得反馈后继续修改，这是个不断迭代的过程。<a href="img/enjoyfix/fix_sketch2.jpg" target="blank">点击看大图</a>
 			</p>
-			<img src="img/fix_sketch2.jpg" class="img-responsive">
+			<img src="img/enjoyfix/fix_sketch2.jpg" class="img-responsive">
 			
 		</div>
 	</div>
@@ -418,10 +292,10 @@
 	</div>
 </div>
 <!-- 设计稿 -->
-<div class="Say screen">
+<div class="Say screen" id="5">
 	<div class="container">
 		<div class="rows col-md-3 col-sm-3 col-xs-12">
-			<img src="img/fix_gif1.gif" class="img-responsive">
+			<img src="img/enjoyfix/fix_gif1.gif" class="img-responsive">
 		</div>
 		<div class="rows col-md-2 col-sm-2 col-xs-12">
 			<!-- <img src="img/fix_gif1.gif" class="img-responsive"> -->
@@ -435,6 +309,7 @@
 		
 	</div>
 </div>
+
 <!-- 设计稿 -->
 <div class="Say screen">
 	<div class="container">
@@ -449,73 +324,12 @@
 		</div>
 		
 		<div class="rows col-md-3 col-sm-3 col-xs-12">
-			<img src="img/fix_gif2.gif" class="img-responsive">
+			<img src="img/enjoyfix/fix_gif2.gif" class="img-responsive">
 		</div>
 	</div>
 </div>
 
-<!-- <div class="Say">
-	<div class="container">
-	<div class="text-center">
-		<h4 style="margin-top: 40px">主要页面</h4>
-	</div>
 </div>
-</div> -->
-<!-- 修改稿1 -->
-<!-- <div class="screen Say">
-	<div class="container">
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			
-			<img src="img/enjoyfix_old1.jpg" class="img-responsive">
-		</div>
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<h3>旧版</h3>
-			<h6>订单详情页面</h6>
-			<p>这个旧版本设计原先目的是为了将功能和信息区分开来，让用户第一屏就看到所有常用的功能。</p>
-			<h6>存在的问题</h6>
-			<p>在实际工作中，用户发现想一眼找到某类信息困难，因为界面内容较为松散。</p>
-			<p>另外，卡片阴影在每台安卓机上效果都不同，背景无法将每一个卡片分隔开。</p>
-
-		</div>
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<img src="img/enjoyfix_new1.jpg" class="img-responsive">
-		
-		</div>
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<h3>新版</h3>
-			<h6>订单详情页面</h6>
-			<p>基于用户工作流程将信息进行重新分类，用户不管是否紧急都能快速找到自己想要的信息。</p>
-			<p>将信息与相关的功能按钮摆放在一起能让用户快速根据大类找到对应的操作。</p>
-		</div>
-
-	</div>
-</div> -->
-
-<!-- 修改稿2 -->
-<!-- <div class="screen Say" style="margin-top: 40px">
-	<div class="container">
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<img src="img/enjoyfix_old2.gif" class="img-responsive">
-		</div>
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<div class="detail">
-			<h3>旧版</h3>
-			<h6>查看服务单&收入详情</h6>
-			<p>历史遗留的问题是账户页面和个人中心接口不同，不能将信息展示出来，所以做了一个万不得已的方案。</p>
-			<h6>存在的问题</h6>
-			<p>产品账户信息和个人中心信息分散，查找入口太深，导航入口和页面标题都容易让用户混淆。</p>
-			</div>
-		</div>
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<img src="img/enjoyfix_new2.gif" class="img-responsive">
-		</div>
-		<div class="rows col-xs-12 col-sm-3 col-md-3 col-lg-3">
-			<h3>新版</h3>
-			<h6>全新的管理页面</h6>
-			<p>查看服务单&收入详情的入口更直观。</p>
-		</div>
-	</div>
-</div> -->
 
 <!-- 验证 -->
 <div class="Say" style="margin-top: 80px">
@@ -534,38 +348,8 @@
 		</div>
 	</div>
 </div>
-<!-- 解决方案 -->
-<!-- <div class="Say">
-	<div class="container">
-		<div class="rows col-md-3 col-sm-3 col-xs-12">
-			<h3 class="text-left">解决方案</h3>
-		</div>
-		<div class="rows col-md-9 col-sm-9 col-xs-12">
-			<p>基于之前的用户调研结果，我明确了两个用户流程需要改进，一个是在用户<b>进行服务</b>的时候，另一个是在用户月底想要<b>查看自己工作情况</b>的时候提供完整的工作汇总。</p>
-			<p>于是整理出以下改进点：</p>
-			<span style="color: #565656;line-height: 28px"><ul class="list-unstyled">
-				<li>1. 简化工程师服务流程。</li>
-				<li>2. 优化产品UI，让操作及信息更一目了然,将用户的服务指标数据更易于发现理解。</li>
-				<li>3. 提供工程师微信服务号，以及电话语音提醒。</li>
-				<li>4. 为客户制定一款对应的报修端 (<a href="fixx.html" target="blank">查看项目</a>)。</li>
-			</ul></span>
-			
 
-		</div>
-	</div>
-</div>
- -->
 
-<!-- 新流程 -->
-<!-- <div class="Say">
-	<div class="container">
-		<div class="text-center">
-			<h3 style="margin-bottom: 48px">优化后的页面流程</h3>
-
-			<img src="img/enjoyfix_flow_new.jpg" class="img-responsive">
-		</div>
-	</div>
-</div> -->
 
 <!-- 成果 -->
 <div class="Say">
@@ -584,74 +368,23 @@
 	<div class="container">
 		<div class="rows col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 40px">
 			<small>欢迎页</small>
-			<img src="img/fix_ui1.jpg" class="img-responsive">
+			<img src="img/enjoyfix/fix_ui1.jpg" class="img-responsive">
 		</div>
 		<div class="rows col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 80px">
 			<small>主页面</small>
-			<img src="img/fix_ui2.jpg" class="img-responsive">
-			<img src="img/fix_ui5.jpg" class="img-responsive">
+			<img src="img/enjoyfix/fix_ui2.jpg" class="img-responsive">
+			<img src="img/enjoyfix/fix_ui5.jpg" class="img-responsive">
 		</div>
 		<div class="rows col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 80px">
 			<small>工程师端</small>
 			<small style="float: right">客户端</small>
-			<img src="img/fix_ui3.jpg" class="img-responsive">
+			<img src="img/enjoyfix/fix_ui3.jpg" class="img-responsive">
 		</div>
 		
 	</div>
 </div>
 
 
-<!-- 欢迎页 -->
-
-
-<!-- <div class="Say screen" style="margin-top: 80px">
-	<div class="container"> -->
-		<!-- <div class="row col-xs-12">
-			<div class="text-center" style="margin-bottom: 40px">
-				<h4 style="margin-top: 80px">新版本欢迎页</h4>
-			</div>
-		</div> -->
-		
-<!-- 		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新版本的欢迎页</small>
-			<img src="img/fix/f1.png" class="img-responsive">
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新版本的欢迎页</small>
-			<img src="img/fix/f2.png" class="img-responsive">
-			
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新版本的欢迎页</small>
-			<img src="img/fix/f3.png" class="img-responsive">
-			
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新版本的欢迎页</small>
-			<img src="img/fix/f4.png" class="img-responsive">
-			
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新首页</small>
-			<img src="img/fix/f5.jpg" class="img-responsive">
-			
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新账户页面</small>
-			<img src="img/fix/f6.jpg" class="img-responsive">
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>消息页面</small>
-			<img src="img/fix/f7.jpg" class="img-responsive">
-			
-		</div>
-		<div class="rows col-xs-12 col-sm-4 col-md-4 col-lg-4">
-			<small>新个人页面</small>
-			<img src="img/fix/f8.jpg" class="img-responsive"> -->
-			
-<!-- 		</div>
-	</div>
-</div> -->
 
 <!-- 作品列表 -->
 
@@ -660,9 +393,9 @@
 	<div class="rows col-md-12 col-sm-12 col-xs-12 text-center">
 		<ul class="list-inline">
 				<li>
-					<a href="index.html">All</a>
+					<a href="index.html">回到首页</a>
 				</li>
-				<li>
+				<!-- <li>
 					<a href="#" class="active">工程师维修助手</a>
 				</li>
 				<li>
@@ -673,14 +406,11 @@
 				</li>
 				<li>
 					<a href="fixx.html">电子产品售后管家</a>
-				</li>
-				
-				<!-- <li>
-					<a href="https://dribbble.com/chomoon" target="blank">OnTheRoad App</a>
 				</li> -->
-				<li>
+			
+				<!-- <li>
 					<a href="illustration.html">插画 & 动画</a>
-				</li>
+				</li> -->
 		</ul>
 	</div>
 </div>
