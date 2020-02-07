@@ -303,11 +303,12 @@ big{
 
 .card{
 	margin-top: 40px;
+	opacity: 0.7;
 }
 
 
 .card:hover{
-	opacity: 0.85;
+	opacity: 1;
 }
 
 .card-inside{

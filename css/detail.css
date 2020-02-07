@@ -167,3 +167,13 @@
   	top: 0;
   	z-index:100;
 }
+
+.word{
+	
+}
+
+.WordInside img{
+	margin: 24px 24px 8px;
+	background-color: #FFF;
+	box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.1);
+}
