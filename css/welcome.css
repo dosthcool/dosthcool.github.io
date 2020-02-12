@@ -12,6 +12,10 @@
 	background-color: #666;
 }
 
+#menu .totop img:hover{
+	opacity: 0.6;
+}
+
 .MenuList .affix{
 	top: 40px;
 }
@@ -33,7 +37,7 @@ code{
 }
 
 .intro code:hover{
-	background-color: #fff;
+	background-color: #FFF5F8;
 }
 
 .top a:hover{
