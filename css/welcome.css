@@ -7,10 +7,13 @@
 	position:fixed;
 	right: 40px; 
 	bottom: 40px;
+	z-index: 999;
 }
 #menu a{
 	background-color: #666;
 }
+
+
 
 #menu .totop img:hover{
 	opacity: 0.6;
