@@ -2444,6 +2444,9 @@ table th[class*="col-"] {
   overflow-x: auto;
 }
 @media screen and (max-width: 767px) {
+  .reflections {
+    display: none;
+  }
   .table-responsive {
     width: 100%;
     margin-bottom: 15px;
@@ -4219,6 +4222,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-height: 340px;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
+  .reflections{
+    display: none;
+  }
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
@@ -4984,6 +4990,9 @@ a.badge:focus {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
+  .relfections{
+    display: none;
+  }
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -6432,6 +6441,9 @@ button.close {
   text-shadow: none;
 }
 @media screen and (min-width: 768px) {
+  .reflections{
+    display: none;
+  }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,
