@@ -322,6 +322,7 @@ big{
 
 .card-inside:hover{
 	box-shadow: 4px 8px 12px #F2F6F9;
+	border: 1px solid #E4E4E4;
 }
 
 .card-inside{
