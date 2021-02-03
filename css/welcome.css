@@ -1,7 +1,19 @@
 /*links*/
 .body{
 	color: #565656;
+	font-family: 'sans-serif';
 }
+
+/*font*/
+
+@font-face {
+    /* font-properties */
+    font-family: 'Roboto';
+    src:url('../fonts/Roboto-Regular.ttf'),  
+    url('../fonts/Roboto-Medium.ttf'),
+    url('加载外部字体文件的文件地址'); /* IE9 */
+}
+
 
 #menu{
 	position:fixed;
@@ -39,9 +51,6 @@ code{
 	margin: 16px 0px;
 }
 
-.intro code:hover{
-	background-color: #FFF5F8;
-}
 
 .top a:hover{
 	opacity: 0.4;
@@ -49,6 +58,7 @@ code{
 
 .top .active{
 	color:#565656;
+	/*font-weight: 560;*/
 	/*border-bottom: 4px solid #F7C6D1;*/
 }
 
@@ -144,7 +154,7 @@ section p{
 }
 .top .navbar-default .navbar-nav li a{
 	color: #565656;
-	font-size: 16PX;
+	font-size: 18PX;
 }
 
 .nav>li>a{
@@ -170,13 +180,23 @@ section p{
 	text-decoration: none;
 	color: #565656;
 	opacity: 0.5;
-	font-weight: 500;
-
+	/*font-weight: 500;*/
+	/*font-family: 'Roboto';*/
 }
 
 .intro a:hover{
 	opacity: 1;
 	border-bottom: 5px solid #F7C6D1;
+}
+
+.intro code:hover{
+	background-color: #FFF5F8;
+}
+
+.intro p{
+	font-size: 18px;
+	line-height: 28px;
+	padding-top: 18px;
 }
 
 
@@ -196,10 +216,10 @@ section p{
 }
 
 
-
 .top{
 	margin: 36px 0px 16px 0px;
 	float: top;
+	/*position: fixed;*/
 }
 
 .top .container-fluid{
@@ -230,6 +250,7 @@ h1{
 	font-size: 36px;
 	color: #565656;
 	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
 	
 }
 h2{
@@ -264,10 +285,11 @@ h6{
 p{
 	font-size: 16px;
 	line-height: 32px;
-	/*color: #565656;*/
-	letter-spacing: 0.5px;
+	color: #565656;
+	letter-spacing: 0.3px;
 	/*margin: 24px 0px;*/
 }
+
 small{
 	color: #aaa;
 	margin-left: 4px;
@@ -296,14 +318,6 @@ big{
 
 
 
-.intro p{
-	font-size: 18px;
-	line-height: 40px;
-	padding-top: 8px;
-}
-/*.exprience{
-	padding: 40px 0px;
-}*/
 .project{
 	margin-top: 100px;
 }
