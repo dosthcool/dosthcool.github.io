@@ -1,17 +1,8 @@
 /*links*/
 .body{
 	color: #565656;
-	font-family: 'sans-serif';
-}
-
-/*font*/
-
-@font-face {
-    /* font-properties */
-    font-family: 'Roboto';
-    src:url('../fonts/Roboto-Regular.ttf'),  
-    url('../fonts/Roboto-Medium.ttf'),
-    url('加载外部字体文件的文件地址'); /* IE9 */
+	/*font-family: 'sans-serif';*/
+	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 
@@ -21,10 +12,11 @@
 	bottom: 40px;
 	z-index: 999;
 }
+
+
 #menu a{
 	background-color: #666;
 }
-
 
 
 #menu .totop img:hover{
@@ -250,7 +242,7 @@ h1{
 	font-size: 36px;
 	color: #565656;
 	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 	
 }
 h2{
@@ -328,8 +320,8 @@ big{
 }
 
 
-.card:hover{
-	opacity: 1;
+.card-inside:hover{
+	box-shadow: 4px 8px 12px #F2F6F9;
 }
 
 .card-inside{
