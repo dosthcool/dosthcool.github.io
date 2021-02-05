@@ -1,7 +1,6 @@
 /*links*/
 .body{
 	color: #565656;
-	/*font-family: 'sans-serif';*/
 	font-family: "zh quote", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -45,17 +44,22 @@ code{
 
 
 .top a:hover{
-	opacity: 0.4;
+	opacity: 1;
 }
 
 .top .active{
-	color:#565656;
+	color:#292929;
+	opacity: 0.8;
 	/*font-weight: 560;*/
 	/*border-bottom: 4px solid #F7C6D1;*/
 }
 
+.top a{
+	opacity: 0.4;
+}
+
 .top .active a{
-	/*border-bottom: 2px solid #F7C6D1;*/
+	opacity: 0.8;
 }
 
 .pageheader p{
@@ -145,8 +149,9 @@ section p{
 	opacity: 1;
 }
 .top .navbar-default .navbar-nav li a{
-	color: #565656;
+	color: #979797;
 	font-size: 18PX;
+	font-weight: 450;
 }
 
 .nav>li>a{
@@ -204,7 +209,7 @@ section p{
 }
 
 .navbar > .active{
-	opacity: 1;
+	opacity: 0.5;
 }
 
 
@@ -337,7 +342,7 @@ big{
 
 .card-inside span{
 	font-size: 14px;
-	color:#959695;
+	/*color:#959695;*/
 }
 
 .card-inside code{
@@ -410,14 +415,17 @@ big{
 	font-size: 24px;
 	line-height: 24px;
 }
+
 .workfooter li{
 	margin-right: 32px;
 	margin-top: 24px;
 }
+
 .workfooter li a{
 	text-decoration: none;
 	color: #565656;
 }
+
 .workfooter .active{
 	color: #565656;
 	opacity: 1;
@@ -472,4 +480,14 @@ big{
 
 .photo img{
 	padding-top: 20px;
+}
+
+.subtitle {
+	color:#aaa;
+	font-size: 16px;
+}
+
+.title {
+	font-weight: 450;
+	font-size: 26px;
 }
